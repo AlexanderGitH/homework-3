@@ -1,0 +1,67 @@
+@import url("./mobstyle.css");
+
+@media (min-width: 801px) {
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	button {
+		margin: 0 0 150px 100px;
+		width: 200px;
+		height: 70px;
+		font-size: 24px;
+		color: white;
+		background-color: #76A7DA;
+		border-radius: 18px;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 60px;
+	}
+
+	.header {
+		padding: 15px;
+		background-color: #656565;
+		border-radius: 0 0 25px 25px;
+	}
+
+	.header h2 {
+		margin-left: 40px;
+	}
+
+	.content {
+		padding: 15px;
+		margin: 20px 0 20px 0;
+		height: 100%;
+		background-color: #8E8E8E;
+		border-radius: 25px;
+	}
+
+	.content h1 {
+		margin: -10px 0 0 100px;
+		font-size: 140px;
+	}
+
+	.content h2 {
+		font-size: 80px;
+		max-width: 1600px;
+		margin: -25px 0 150px 100px;
+	}
+
+	.footer {
+		padding: 15px;
+		color: white;
+		background-color: black;
+		border-radius: 25px 25px 0 0;
+	}
+
+	.footer h3 {
+		margin-left: 40px;
+		font-size: 60px;
+	}
+}

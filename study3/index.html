@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>study3</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="box" class="container">
+			<input type="submit" name="submit" id="one" value="Переход на другую страницу">
+			<input type="submit" name="submit" id="two" onclick="changeSmena()" value="Смена стиля страницы" style="font-size: 13px;">
+			<input type="submit" name="submit" id="three" value="Удаление содержимого со страницы">
+		</div>
+		
+		<div id="boxopen" class="container-1">
+			<div class="container-2">
+				<div class="container-3">
+				
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			
+			document.getElementById('one').onclick = function() {
+				window.location.href = 'https://www.onliner.by/';
+			};
+
+		
+			function changeSmena() {
+				document.getElementById('one').style.fontSize = '28px';
+				document.getElementById('one').style.backgroundColor = 'red';
+				document.getElementById('two').style.fontSize = '28px';
+				document.getElementById('two').style.backgroundColor = 'red';
+				document.getElementById('three').style.fontSize = '28px';
+				document.getElementById('three').style.backgroundColor = 'red';
+			}
+			
+			document.getElementById('three').onclick = function() {
+				document.getElementById('box').style.display = "none";
+				document.getElementById('boxopen').style.display = "flex";
+			}
+			
+		</script>
+	</body>
+</html>

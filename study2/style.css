@@ -1,0 +1,161 @@
+* {
+	transition: all .2s;
+}
+
+@media (min-width: 769px) {
+	.container-1 {
+		display: flex;
+		margin-bottom: 20px;
+		width: 100%;
+		height: 100px;
+	}
+
+	.box-1 {
+		flex-grow: 1;
+		margin-right: 20px;
+		height: 100%;
+		background-color: red;
+	}
+
+	.box-2 {
+		flex-grow: 2;
+		height: 100%;
+		background-color: orange;
+	}
+
+	.container-2 {
+		display: flex;
+		margin-bottom: 20px;
+		width: 100%;
+		height: 600px;
+	}
+
+	.box-3 {
+		flex-grow: 1;
+		height: 100%;
+		background-color: green;
+	}
+
+	.container-3 {
+		display: flex;
+		width: 100%;
+		height: 200px;
+	}
+
+	.box-4 {
+		flex-grow: 1;
+		margin-right: 20px;
+		height: 100%;
+		background-color: #A64B00;
+	}
+
+	.box-5 {
+		flex-grow: 1;
+		margin-right: 20px;
+		height: 100%;
+		background-color: blue;
+	}
+
+	.box-6 {
+		flex-grow: 1;
+		height: 100%;
+		background-color: #992667;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 376px) {
+	.container-1 {
+		display: flex;
+		margin-bottom: 20px;
+		width: 100%;
+		height: 100px;
+	}
+
+	.box-1 {
+		flex-grow: 1;
+		margin-right: 20px;
+		height: 100%;
+		background-color: orange;
+	}
+
+	.box-2 {
+		flex-grow: 2;
+		height: 100%;
+		background-color: #992667;
+	}
+
+	.container-2 {
+		display: flex;
+		margin-bottom: 20px;
+		width: 100%;
+		height: 600px;
+	}
+
+	.box-3 {
+		flex-grow: 1;
+		height: 100%;
+		background-color: red;
+	}
+
+	.container-3 {
+		display: flex;
+		width: 100%;
+		height: 200px;
+	}
+
+	.box-4 {
+		flex-grow: 1;
+		margin-right: 20px;
+		height: 100%;
+		background-color: green;
+	}
+
+	.box-6 {
+		flex-grow: 1;
+		height: 100%;
+		background-color: blue;
+	}
+}
+
+@media (max-width: 375px) {
+	.container-1 {
+		display: flex;
+		padding: 0px;
+		margin-bottom: 20px;
+		width: 100%;
+		height: 130px;
+	}
+
+	.box-1 {
+		flex-grow: 1;
+		height: 100%;
+		background-color: green;
+	}
+
+	.container-2 {
+		display: flex;
+		padding: 0px;
+		margin-bottom: 10px;
+		width: 100%;
+		height: 130px;
+	}
+
+	.box-3 {
+		flex-grow: 1;
+		height: 100%;
+		background-color: #992667;
+	}
+
+	.container-3 {
+		display: flex;
+		padding: 0px;
+		width: 100%;
+		height: 500px;
+	}
+
+	.box-4 {
+		flex-grow: 1;
+		height: 100%;
+		background-color: red;
+	}
+}

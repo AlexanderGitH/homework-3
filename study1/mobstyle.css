@@ -1,0 +1,87 @@
+@media (max-width: 800px) {
+
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	button {
+		margin: 0 0 100px 50px;
+		width: 140px;
+		height: 50px;
+		font-size: 20px;
+		color: white;
+		background-color: #76A7DA;
+		border-radius: 18px;
+	}
+
+	.header {
+		padding: 15px;
+		background-color: #656565;
+		border-radius: 0 0 25px 25px;
+	}
+
+	.header h2 {
+		margin-left: 40px;
+	}
+
+	.content {
+		padding: 15px;
+		margin: 20px 0 20px 8%;
+		height: 100%;
+		width: 80%;
+		background-color: #8E8E8E;
+		border-radius: 25px;
+	}
+
+	.content h1 {
+		margin: -10px 0 0 50px;
+		font-size: 50px;
+	}
+
+	.content h2 {
+		font-size: 30px;
+		margin: -10px 0 100px 50px;
+	}
+	
+	.slider {
+		width: 100%;
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: center;
+		align-items: center;
+		margin: 25px 5px 100px 5px;
+	}
+	
+	.slide {
+		width: 2rem;
+		height: 2rem;
+		color: #fff;
+		font-size: 1.5rem;
+		border-radius: 50%;
+		background-color: #aeaeae;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		margin: 0 1rem;
+	}
+
+	.footer {
+		padding: 15px;
+		margin-top: 500px;
+		color: white;
+		background-color: black;
+		border-radius: 25px 25px 0 0;
+	}
+
+	.footer h3 {
+		margin-left: 40px;
+	}
+}
